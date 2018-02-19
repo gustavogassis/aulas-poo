@@ -6,40 +6,38 @@
 	</head>
 	<body>
 		<?php
-			class Caneta{
+			class Caneta {
 				var $modelo;
 				var $cor;
 				var $ponta;
 				var $carga;
 				var $tampada;
 
-				function rabiscar(){
-					if($this->tampada == true){
+				function rabiscar() {
+					if ($this->tampada == true){
 						echo "<p>ERRO! Não posso rabiscar";
-					}else{
+					} else {
 						echo "<p>Estou rabiscando...</p>";
 					}
-						
 				}
 
-				function tampar(){
+				function tampar() {
 					$this->tampada = true;
 				}
 
-				function destampar(){
+				function destampar() {
 					$this->tampada = false;
-				}			
+				}
 			}
 
 			$c1 = new Caneta;
 
-			$c1 ->cor = "Azul";
-			$c1 ->ponta = "0.5";
-			$c1 -> tampada = false;	
+			$c1->cor = "Azul";
+			$c1->ponta = "0.5";
+			$c1->tampada = false;	
 			$c1->tampar();
-			
 
-			print_r($c1)
+			print_r($c1);
 		?>
 	</body>
 </html>
