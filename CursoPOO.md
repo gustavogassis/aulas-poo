@@ -77,3 +77,15 @@
 * Criação de Classe para a próxima aula.
 
 ## Aula 7
+
+
+## Aula 8
+
+* Exercícios teóricos
+
+## Aula 9
+
+* Conceito herança: permite basear uma nova classe na definição de uma outra classe previamente existente
+* A herança será aplicada tanto para os atributos quanto para os métodos
+* A classe mãe também pode ser chamada de progenitora ou superclasse
+* A classe filha também pode ser chamada de subclasse
