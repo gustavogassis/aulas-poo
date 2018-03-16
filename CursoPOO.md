@@ -89,3 +89,43 @@
 * A herança será aplicada tanto para os atributos quanto para os métodos
 * A classe mãe também pode ser chamada de progenitora ou superclasse
 * A classe filha também pode ser chamada de subclasse
+
+## Aula 11
+
+* A classe que não tem uma super classe é chamada de **classe raiz**. Ela é a raiz da árvore hierarquica.
+* A classe que tem uma super classe é chamada de **folha**.
+* Uma classe pode ser uma progenitora e uma sub-classe ao mesmo tempo.
+* Uma classe é considerada descendente de todas as outras que estão acima do nível hierarquico da sua progenitora.
+* Uma classe é considerada ancestral de todas as classe que estão abaixo do nível hierarquico das suas filhas.
+* Quando você percorre a árvore hierarquica de cima pra baixo, você está fazendo uma **especialização**.
+* Quando você percorre a árvore hierarquica de baixo pra cima, você está fazendo uma **generalização**.
+
+### Tipos de Herança
+#### Herança de Implementação
+
+* A herança de implementação é basicamente para implementar uma classe abstrata.
+* A sub-classe não vai ter nada de novo em relação a progenitora.
+
+#### Herança para Diferença
+
+* A sub-classe recebe os atributos e métodos da progenitora, porém também implementos novos.
+
+### Conceitos Abstrato e Final
+
+#### Classe Abstrata
+
+* Uma classe abstrata não pode ser instanciada. Só pode servir como progenitora.
+
+### Método Abstrato
+
+* Declarado, mas não implementado na progenitora.
+* Um método abstrato só pode ser colocado dentro de uma interfacce ou de uma classe abstrata.
+
+#### Classe Final
+
+* A classe final não pode ser herdada por outra classe. Obrigatoriamente folha.
+* Não pode ter filhos.
+
+### Método Final
+
+* Não pode ser sobrescrito pelas suas sub-classes. Obrigatoriamente herdado.
