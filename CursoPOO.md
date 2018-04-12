@@ -129,3 +129,26 @@
 ### Método Final
 
 * Não pode ser sobrescrito pelas suas sub-classes. Obrigatoriamente herdado.
+
+## Aula 12
+
+* Polimorfismo = muitas formas.
+* Polimorfismo -> Permite que um **mesmo nome** represente **vários comportamentos** diferentes.
+
+### Assinatura do Método
+* Quantidade e os tipos dos parâmetros
+	* Dois métodos terão a mesma assinatura quando tiverem a mesma quantidade de parâmetros,e eles por fim tiverem os mesmo tipos. Por exemplo: suponhamos os métodos `calcMedia(n1: Real, n2: Real): Real` e `calcMedia(n1: Real, n2: Real): Inteiro`. Eles possuem a mesma assinatura pois possuem a mesma quantidade de parâmetros e eles possuem o mesmo tipo. Não importa o tipo do valor que o método vai retornar, só importa a quantidade e os tipos dos parâmetros.
+	* Suponhamos outro método: `calcMedia(bim: Inteiro, n1: Real, n2: Real): Real`. Não se pode dizer que esse tem a mesma assinatura dos anteriores pois ele possui um parâmetro a mais.
+
+### Tipos de Polimorfismo
+
+#### Sobreposição
+* Quando se têm uma superclasse(criada para servir como herança) e ela contém métodos abstratos, é necessário desenvolver, sobrepor esses métodos nas classes que são extendidas dessa superclasse, desenvolvendo como essa classes executa esse método. Diferentes classes podem ter diferentes execuções do método.
+* Acontece quando **substituímos** um método de uma superclasse na sua subclasse , usando a **mesma assinatura**.
+* A sobreposição tem que acontecer em **classes diferentes**.
+
+#### Sobrecarga
+* Se desenvolve as classes abstratas da superclasse.
+* Podem ter  mais de um método, sendo eles com **assinaturas diferentes**.
+* Acontecem na mesma classe.
+
